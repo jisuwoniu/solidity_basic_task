@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8;
-//用 solidity 实现整数转罗马数字
+//用 solidity 实现整数转罗马数字和罗马数字转整数
 contract Uint2Roman{
 
     function uint2Rema(uint256 num) public pure returns(string memory){
@@ -17,7 +17,5 @@ contract Uint2Roman{
 
         return result;
     }
-
-
 
 }
